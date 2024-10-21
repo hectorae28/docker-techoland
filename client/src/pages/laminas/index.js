@@ -4,12 +4,15 @@ import SliderComponent from '@/components/Slider'
 import React from 'react'
 import Head from 'next/head'
 export async function getServerSideProps() {
-  const listRes = await fetch('http://localhost:8000/api/productsList/')
+  //  const listRes = await fetch('http://localhost:8000/api/productsList/')
+  const serverUrl = process.env.SERVER_URL;
+  const listRes = await fetch(serverUrl + '/api/productsList/')
+
   const listData = await listRes.json()
   return { props: { listData } }
 }
 
-const Laminas = ({listData}) => {
+const Laminas = ({ listData }) => {
   return (
     <div>
       <Head>

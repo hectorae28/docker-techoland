@@ -4,19 +4,20 @@ import React, { useState, useRef } from 'react'
 const FormContact = ({ onHide }) => {
   const form = useRef(null)
   const [errors, setErrors] = useState(null)
-  const handleSubmit = (event) => {
+  async function handleSubmit(event) {
     event.preventDefault()
-    const data = new FormData(form.current)
+    const formData = new FormData(form.current)
     const order = {
-      nombre: data.get('name'),
-      email: data.get('email'),
-      phone: data.get('phone'),
-      mensaje: data.get('message'),
+      nombre: formData.get('name'),
+      email: formData.get('email'),
+      phone: formData.get('phone'),
+      mensaje: formData.get('message'),
     }
 
     const serverUrl = process.env.SERVER_URL;
     //console.log(serverUrl + "/api/orders/orders/")
-    fetch(serverUrl + "/api/orders/orders/", {
+    console.log({ order })
+    fetch("http://localhost:8000/api/orders/orders/", {
       method: "POST",
       body: JSON.stringify(order),
       headers: {
@@ -44,7 +45,7 @@ const FormContact = ({ onHide }) => {
           <span className="font-medium">Error!</span> {errors}
         </div>
       </div>}
-      <form ref={form} method="POST" action="#" onSubmit={handleSubmit}>
+      <form method="POST" ref={form} onSubmit={handleSubmit}>
         <div className="grid gap-4 mb-4 sm:grid-cols-2">
           <div>
             <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nombre</label>

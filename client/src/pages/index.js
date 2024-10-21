@@ -9,6 +9,7 @@ export async function getServerSideProps() {
   try {
     //const res = await fetch('http://localhost:8000/api/productsList/')
     const serverUrl = process.env.SERVER_URL;
+    console.log(serverUrl + "/api/productsList/")
     const res = await fetch(serverUrl + '/api/productsList/')
     const data = await res.json()
     return { props: { data } }
