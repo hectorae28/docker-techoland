@@ -38,7 +38,7 @@ EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = DEFAULT_FROM_EMAIL
-EMAIL_HOST_PASSWORD = os.environ.get("APP_PASS2", default="PASSWORD")
+EMAIL_HOST_PASSWORD = env("APP_PASS2")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 

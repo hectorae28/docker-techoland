@@ -5,11 +5,16 @@ import Modal from '@/components/Modal'
 import FormContact from '@/components/FormContact'
 import Titles from '@/components/Titles'
 export async function getServerSideProps() {
+  try {
+    const serverUrl = process.env.SERVER_URL;
+    const res = await fetch(serverUrl + '/api/accesorios/')
+    const data = await res.json()
+    return { props: { data } }
 
-  const serverUrl = process.env.SERVER_URL;
-  const res = await fetch(serverUrl + '/api/accesorios/')
-  const data = await res.json()
-  return { props: { data } }
+  } catch (err) {
+    console.log(err)
+    return { props: { data: [] } }
+  }
 }
 
 const Accesorios = ({ data }) => {

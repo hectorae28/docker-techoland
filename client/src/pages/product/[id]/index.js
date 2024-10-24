@@ -9,14 +9,18 @@ import React, { useState } from 'react'
 import Button from '@/components/Button'
 
 export async function getServerSideProps(context) {
-
-  const serverUrl = process.env.SERVER_URL;
-  const { id } = context.query
-  const itemRes = await fetch(`${serverUrl}/api/products/${id}/`)
-  const itemData = await itemRes.json()
-  const listRes = await fetch(serverUrl + '/api/productsList/')
-  const listData = await listRes.json()
-  return { props: { itemData, listData } }
+  try {
+    const serverUrl = process.env.SERVER_URL;
+    const { id } = context.query
+    const itemRes = await fetch(`${serverUrl}/api/products/${id}/`)
+    const itemData = await itemRes.json()
+    const listRes = await fetch(serverUrl + '/api/productsList/')
+    const listData = await listRes.json()
+    return { props: { itemData, listData } }
+  } catch (err) {
+    console.log(err)
+    return { props: { data: [] } }
+  }
 }
 
 const ProductItem = ({ itemData, listData }) => {

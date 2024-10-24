@@ -35,6 +35,8 @@ services:
       - "3000:3000"
     volumes:
       - ./client:/src
+    env_file:
+        .env.dev
     command: >
       sh -c "yarn && yarn build && yarn start"
     depends_on:
