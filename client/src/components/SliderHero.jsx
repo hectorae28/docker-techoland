@@ -2,6 +2,7 @@ import Card from "./Card";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from "next/link";
 const ArrowNext = (props) => {
   const { onClick } = props;
   return (
@@ -43,13 +44,13 @@ const ArrowPrev = (props) => {
     </button>
   );
 };
-const SliderComponent = ({ data }) => {
+const SliderHero = ({ data }) => {
   var settings = {
     dots: false,
     centerMode: true,
     infinite: true,
     speed: 1000,
-    autoplay: false,
+    autoplay: true,
     cssEase: "linear",
     autoplaySpeed: 2000,
     slidesToShow: 3,
@@ -87,12 +88,26 @@ const SliderComponent = ({ data }) => {
     ],
   };
   return (
-    <Slider {...settings} className="flex gap-4 w-full">
+    <Slider
+      {...settings}
+      className="flex items-center justify-center gap-4 w-full h-96"
+    >
       {data?.map((item, index) => (
-        <Card index={index + 1} key={index} {...item} />
+        <Link key={index} href={`/product/${item.slug}`}>
+          <div
+            key={index}
+            className="p-4 flex items-center justify-center h-96 md:h-full w-full cursor-pointer"
+          >
+            <img
+              className=" rounded-lg h-80 md:h-full object-contain md:object-cover"
+              src={item.ProductoImagen[0].image_src}
+              alt="product image"
+            />
+          </div>
+        </Link>
       ))}
     </Slider>
   );
 };
 
-export default SliderComponent;
+export default SliderHero;

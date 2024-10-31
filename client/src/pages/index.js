@@ -1,7 +1,6 @@
 import Head from "next/head";
-import { AliadosPlazitPolygal } from "../components";
+import { AliadosPlazitPolygal, SliderHero } from "../components";
 import AliadosPlaskolite from "../components/Aliados";
-import Banner from "../components/Banner";
 import Hero from "../components/Hero";
 import ProductsList from "../components/Solucions";
 
@@ -24,8 +23,12 @@ function Home({ data }) {
       <Head>
         <title>Techoland | Inicio</title>
       </Head>
-      <Hero bg={"bg-[url('/hero-image.JPG')]"}>
-        <Banner />
+      <Hero bg={"bg-[url('/hero-image6.webp')]"}>
+        <section className="max-w-screen-sm mx-auto md:max-w-screen-sm lg:max-w-screen-lg h-96 md:h-[35rem]">
+          <div className=" slider-container flex justify-center items-center w-full md:max-w-screen-xl sm:w-full h-full">
+            <SliderHero data={data} />
+          </div>
+        </section>
       </Hero>
       <AliadosPlaskolite />
       <ProductsList data={data} />

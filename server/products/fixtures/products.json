@@ -1,0 +1,688 @@
+[
+{
+    "model": "products.producto",
+    "pk": 1,
+    "fields": {
+        "nombre": "POLICARBONATO ALVEOLAR LÍNEA TRADICIONAL",
+        "slug": "tradicional",
+        "descripcion": "La lámina de policarbonato alveolar es el preferido por el público en la actualidad por encima del vidrio y el acrílico, por ser un material más ligero y resistente.",
+        "info": {
+            "usos": [
+                "Cubiertas para piscinas y pérgolas",
+                "galpones",
+                "Revestimiento de fachadas",
+                "Edificios industriales",
+                "Múltiples usos"
+            ],
+            "accesorios": [],
+            "caracteristicas": [
+                "Resistentes a la intemperie ",
+                "Protección con un filtro UV.",
+                "Fácil instalación.",
+                "Adaptable a formas curvas y arcos"
+            ],
+            "especificaciones_tecnicas": {
+                "peso": "1,3kg/m2 / 1,7kg/m2",
+                "espesor": "6mm / 10mm",
+                "medidas": {
+                    "ancho": "11.80mts / 5,90mts",
+                    "largo": "2,10mts"
+                },
+                "distancia entre apoyos": "0,70mts / 1,02mts"
+            }
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 2,
+    "fields": {
+        "nombre": "POLICARBONATO ALVEOLAR LÍNEA EVOLUCIÓN",
+        "slug": "evolucion",
+        "descripcion": "La lámina de policarbonato alveolar de la línea evolución,  contiene polvo de aluminio que reduce el 30% del calor y reflecta mejor la luz en su variedad de colores.",
+        "info": {
+            "usos": [
+                "Techos y fachadas traslucidas",
+                "Cubiertas para piscinas y pérgolas",
+                "galpones",
+                "restaurantes"
+            ],
+            "accesorios": [],
+            "caracteristicas": [
+                "Resistentes a la intemperie ",
+                "Mejor reflección de luz",
+                "Protección con un filtro UV.",
+                "Fácil instalación.",
+                "Adaptable a formas curvas y arcos"
+            ],
+            "especificaciones_tecnicas": {
+                "peso": "1,3kg/m2 / 1,7kg/m2",
+                "espesor": "6mm / 10mm",
+                "medidas": {
+                    "ancho": "11.80mts / 5,90mts",
+                    "largo": "2,10mts"
+                },
+                "distancia entre apoyos": "0,70mts / 1,02mts"
+            }
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 3,
+    "fields": {
+        "nombre": "POLICARBONATO CORRUGAL GRECA",
+        "slug": "greca",
+        "descripcion": "La lámina de corrugal greca de polygal-plaskolite, es un producto de policarbonato de última tecnología la cual, gracias a su resistencia y versatilidad, puede ser usada en cualquier tipo de techumbre.",
+        "info": {
+            "usos": [
+                "Resistentes a la intemperie ",
+                "Ideal para grandes superficies",
+                "Protección con un filtro UV.",
+                "Fácil instalación.",
+                "disponible en Blanco y gris cenizo"
+            ],
+            "accesorios": [
+                "arandela de goma epdm gris",
+                "tope de plástico",
+                "Tornillos autotaladrantes 2"
+            ],
+            "caracteristicas": [
+                "Resistentes a la intemperie ",
+                "Ideal para grandes superficies",
+                "Protección con un filtro UV.",
+                "Fácil instalación.",
+                "disponible en Blanco y bronce"
+            ],
+            "especificaciones_tecnicas": {
+                "peso": "1,04kg X m",
+                "pendiente_minima": "5%",
+                "distancia_entre_apoyos": "0,70m"
+            }
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 4,
+    "fields": {
+        "nombre": "POLICARBONATO CORRUGAL SINUS",
+        "slug": "sinus",
+        "descripcion": "La lámina de corrugal sinus de polygal-plaskolite, es un producto de policarbonato de última tecnología la cual, gracias a su resistencia y versatilidad, puede ser usada en cualquier tipo de cubiertas.",
+        "info": {
+            "usos": [
+                "Resistentes a la intemperie ",
+                "Ideal para grandes superficies",
+                "Protección con un filtro UV.",
+                "Fácil instalación.",
+                "disponible en Blanco y gris cenizo"
+            ],
+            "accesorios": [
+                "arandela de goma epdm gris",
+                "tope de plástico",
+                "Tornillos autotaladrantes 2"
+            ],
+            "caracteristicas": [
+                "Resistentes a la intemperie ",
+                "Ideal para grandes superficies",
+                "Protección con un filtro UV.",
+                "Fácil instalación.",
+                "disponible en Blanco y gris cenizo"
+            ],
+            "especificaciones_tecnicas": {
+                "peso": "1,04kg X m",
+                "pendiente_minima": "5%",
+                "distancia_entre_apoyos": "0,70m"
+            }
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 5,
+    "fields": {
+        "nombre": "BAMBÚTECH",
+        "slug": "bambutech",
+        "descripcion": "Nueva línea de láminas de policarbonato con varas de bambú integradas que conjugan elementos de decoración y diseño",
+        "info": {
+            "usos": [
+                "Techos y aleros",
+                "Estacionamientos",
+                "Terrazas y piscinas",
+                "lucernarios"
+            ],
+            "accesorios": [
+                "perfiles “H CLICK” de policarbonato (incluye goma epdm)",
+                "perfils “U”",
+                "Tornillos autotaladrantes ",
+                "Botón de sujeción diamante"
+            ],
+            "caracteristicas": [
+                "transmisión de luz controlada de la luz solar",
+                "excelente aislamiento término",
+                "filtro uv que evita su decoloración",
+                "flexible y fácil de instalar"
+            ],
+            "especificaciones_tecnicas": {
+                "tamaño": {
+                    "largo": "100x100mts",
+                    "espesor": "8mm"
+                }
+            }
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 6,
+    "fields": {
+        "nombre": "POLICARBONATO MACIZO",
+        "slug": "macizo",
+        "descripcion": "Láminas de policarbonato extruidas con alta resistencia a impactos. Tienen la mitad del peso del vidrio, poseen mejor transmisión de luz y muchas ventajas.",
+        "info": {
+            "usos": [
+                "Techos y lucernarios",
+                "Estacionamientos",
+                "Galpones y piscinas",
+                "Múltiples aplicaciones."
+            ],
+            "accesorios": [
+                "Tornillos autotaladrantes 2",
+                "Arandela de goma epdm gris",
+                "Perfin H click de policabonato (incluye goma epdm)",
+                "Botón de sujeción diamante"
+            ],
+            "caracteristicas": [
+                "Resistentes a la intemperie y a los rayos UV.",
+                "Alta transparencia",
+                "Virtualmente irrompible",
+                "No se amarilla, ni se cuartea",
+                "Fácil instalación."
+            ],
+            "especificaciones_tecnicas": {
+                "medidas_laminas": [
+                    {
+                        "ancho": "1,025M",
+                        "longo": "5,90 M",
+                        "espesor": "6MM"
+                    },
+                    {
+                        "ancho": "2,05 M",
+                        "longo": "3,00M",
+                        "espesor": "8MM"
+                    }
+                ],
+                "pendiente_minima": "5%"
+            }
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 7,
+    "fields": {
+        "nombre": "KIT DE PANELES DE POLICARBONATO TOP CLICK",
+        "slug": "topclick",
+        "descripcion": "El sistema de paneles de policarbonato top click, permite la instalación de cubiertas sin necesidad de realizar perforaciones o anclajes sobre las láminas, brindado superficies herméticas y de muy fácil instalación.",
+        "info": {
+            "usos": [
+                "Revestimiento de fachadas",
+                "Cubiertas para piscinas",
+                "Techos y pérgolas",
+                "Galpones",
+                "estacionamientos"
+            ],
+            "accesorios": [
+                "Capucho de cierre",
+                "Perfil para bordes",
+                "Perfil “u”",
+                "Cip de sujeción",
+                "Cinta microperforada",
+                "Tornillos autotaladrantes cabeza plana"
+            ],
+            "caracteristicas": [
+                "no requiere perforaciones en la lámina para fijar la estructura",
+                "disponible en Blanco ice, bronce trasera y gris metal",
+                "resistencia a impactos",
+                "Fácil instalación."
+            ],
+            "especificaciones_tecnicas": {
+                "peso": "1,64kg X m2",
+                "pendiente_minima": "5%",
+                "distancia_entre_apoyos": "0,95mts"
+            }
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 8,
+    "fields": {
+        "nombre": "STANDING SEAM",
+        "slug": "standing-seam",
+        "descripcion": "La cubierta tipo standig sean está compuesta por una lámina tipo bandeja metálica que se utiliza para cubierta de techos.",
+        "info": {
+            "usos": [
+                "Fachadas",
+                "Galpones industriales",
+                "Cubiertas de techo en general"
+            ],
+            "accesorios": [
+                "Flashing tipo “C”",
+                "Tornillo autotaladrante",
+                "Clip de sujeción"
+            ],
+            "caracteristicas": [
+                "Se fabrica del largo de la pendiente",
+                "Se instala sin perforaciones directas (con clip de sujeción interno)",
+                "Almacena gran cantidad de agua sin rebose y con absoluta hermeticidad.",
+                "Se puede instalas bandeja sencilla o bandeja doble con aislante termo acústico (poliestireno o fibra de vidrio)",
+                "Garantía de 20 años libre de mantenimiento"
+            ],
+            "especificaciones_tecnicas": {
+                "dimensiones": {
+                    "calibre ": "26 / 24 / 22",
+                    "altura de onda": "1 ½” – 2”",
+                    "ancho útil (bandeja)": "0,45 / 0,50mts",
+                    "distancia max. Entre apoyo": "1,40mts"
+                },
+                "pendiente_minima": "5%"
+            }
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 9,
+    "fields": {
+        "nombre": "Perfil U de Policarbonato",
+        "slug": "accesorio",
+        "descripcion": "Elemento que sella los alveolos de la lamina para evitar que entre el sucio o la humedad en los mismos.",
+        "info": {
+            "longitud": " 2.10mts"
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 10,
+    "fields": {
+        "nombre": "Botón de Sujección Diamante",
+        "slug": "accesorio",
+        "descripcion": "Elemento usado para sujetar la lamina en las correas de apoyo. Posee una arandela de goma para evitar el paso del agua.",
+        "info": {
+            "Espesor": " 6MM y 10MM"
+        }
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "image_src": "/products/tradicional-portada.jpeg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 2,
+    "fields": {
+        "product": 1,
+        "image_src": "/products/alveolar-1.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 3,
+    "fields": {
+        "product": 1,
+        "image_src": "/products/alveolar-2.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 4,
+    "fields": {
+        "product": 2,
+        "image_src": "/products/evolucion-portada.jpeg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 5,
+    "fields": {
+        "product": 2,
+        "image_src": "/products/alveolar-1.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 6,
+    "fields": {
+        "product": 2,
+        "image_src": "/products/alveolar-2.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 7,
+    "fields": {
+        "product": 3,
+        "image_src": "/products/greca-portada.jpeg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 8,
+    "fields": {
+        "product": 3,
+        "image_src": "/products/greca-1.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 9,
+    "fields": {
+        "product": 3,
+        "image_src": "/products/greca-2.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 10,
+    "fields": {
+        "product": 4,
+        "image_src": "/products/sinus-portada.jpeg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 11,
+    "fields": {
+        "product": 4,
+        "image_src": "/products/sinus-1.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 12,
+    "fields": {
+        "product": 4,
+        "image_src": "/products/sinus-2.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 13,
+    "fields": {
+        "product": 5,
+        "image_src": "/products/bambutech-portada.jpeg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 14,
+    "fields": {
+        "product": 5,
+        "image_src": "/products/bambutech-1.png"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 15,
+    "fields": {
+        "product": 5,
+        "image_src": "/products/bambutech-2.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 16,
+    "fields": {
+        "product": 6,
+        "image_src": "/products/macizo-portada.jpeg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 17,
+    "fields": {
+        "product": 6,
+        "image_src": "/products/macizo-1.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 18,
+    "fields": {
+        "product": 6,
+        "image_src": "/products/macizo-2.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 19,
+    "fields": {
+        "product": 7,
+        "image_src": "/products/topclick-portada.jpeg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 20,
+    "fields": {
+        "product": 7,
+        "image_src": "/products/topclick-1.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 21,
+    "fields": {
+        "product": 7,
+        "image_src": "/products/topclick-2.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 22,
+    "fields": {
+        "product": 8,
+        "image_src": "/products/standingseam-portada.jpeg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 23,
+    "fields": {
+        "product": 8,
+        "image_src": "/products/standing-seam-1.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 24,
+    "fields": {
+        "product": 8,
+        "image_src": "/products/standing-seam-2.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 25,
+    "fields": {
+        "product": 9,
+        "image_src": "/products/Perfil-U.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 26,
+    "fields": {
+        "product": 10,
+        "image_src": "/products/Boton-Diamante.jpg"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "grosor": "6MM",
+        "precio": "100.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 2,
+    "fields": {
+        "product": 1,
+        "grosor": "8MM",
+        "precio": "150.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 3,
+    "fields": {
+        "product": 2,
+        "grosor": "6MM",
+        "precio": "100.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 4,
+    "fields": {
+        "product": 2,
+        "grosor": "8MM",
+        "precio": "150.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 5,
+    "fields": {
+        "product": 3,
+        "grosor": "6MM",
+        "precio": "100.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 6,
+    "fields": {
+        "product": 3,
+        "grosor": "8MM",
+        "precio": "150.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 7,
+    "fields": {
+        "product": 4,
+        "grosor": "6MM",
+        "precio": "100.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 8,
+    "fields": {
+        "product": 4,
+        "grosor": "8MM",
+        "precio": "150.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 9,
+    "fields": {
+        "product": 5,
+        "grosor": "6MM",
+        "precio": "100.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 10,
+    "fields": {
+        "product": 5,
+        "grosor": "8MM",
+        "precio": "150.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 11,
+    "fields": {
+        "product": 6,
+        "grosor": "6MM",
+        "precio": "100.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 12,
+    "fields": {
+        "product": 6,
+        "grosor": "8MM",
+        "precio": "150.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 13,
+    "fields": {
+        "product": 7,
+        "grosor": "6MM",
+        "precio": "100.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 14,
+    "fields": {
+        "product": 7,
+        "grosor": "8MM",
+        "precio": "150.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 15,
+    "fields": {
+        "product": 8,
+        "grosor": "8MM",
+        "precio": "150.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 16,
+    "fields": {
+        "product": 9,
+        "grosor": "default",
+        "precio": "5.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 17,
+    "fields": {
+        "product": 10,
+        "grosor": "6MM",
+        "precio": "5.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 18,
+    "fields": {
+        "product": 10,
+        "grosor": "8MM",
+        "precio": "6.00"
+    }
+}
+]

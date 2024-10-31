@@ -16,7 +16,7 @@ services:
       - cache_vol:/var/cache
       - tmp_vol:/tmp
     env_file:
-      - .env.dev
+      - .env.prod
     environment:
       - DJANGO_DEBUG=False
       - GUNICORN_WORKERS=5
@@ -32,22 +32,28 @@ services:
     tty: true
     working_dir: /src
     ports:
-      - "3000:3000"
+      - "3000:80"
     volumes:
       - ./client:/src
-    env_file:
-        .env.dev
+    env_file: .env.prod
     command: >
       sh -c "yarn && yarn build && yarn start"
     depends_on:
       - server
       - db
-
+  nginx:
+    container_name: nginx
+    build: ./nginx/
+    volumes:
+      - static:/app/web/static
+    depends_on:
+      - server
+      - client
   db:
     container_name: db
     image: postgres
     env_file:
-      - .env.dev
+      - .env.prod
 
 volumes:
   run_vol:

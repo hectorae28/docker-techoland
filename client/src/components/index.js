@@ -1,7 +1,9 @@
-export { default as Hero } from './Hero'
-export { default as Banner } from './Banner'
-export { default as Card } from './Card'
-export { default as ProductsList } from './Solucions'
-export { default as AliadosPlaskolite } from './Aliados'
-export { default as AliadosPlazitPolygal } from './Aliados2'
-export { default as Titles } from './Titles'
+export { default as Hero } from "./Hero";
+export { default as Banner } from "./Banner";
+export { default as Card } from "./Card";
+export { default as ProductsList } from "./Solucions";
+export { default as AliadosPlaskolite } from "./Aliados";
+export { default as AliadosPlazitPolygal } from "./Aliados2";
+export { default as Titles } from "./Titles";
+export { default as Slider } from "./Slider";
+export { default as SliderHero } from "./SliderHero";
