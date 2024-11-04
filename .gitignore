@@ -1,2 +1,3 @@
 .vscode
 django-nextjs-boilerplate/
+.env.prod
