@@ -1,3 +1,7 @@
 .vscode
 django-nextjs-boilerplate/
 .env.prod
+nginx/database.sqlite
+nginx/keys.json
+nginx/logs/
+nginx/nginx/
