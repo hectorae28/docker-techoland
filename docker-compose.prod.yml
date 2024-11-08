@@ -32,7 +32,7 @@ services:
     tty: true
     working_dir: /src
     ports:
-      - "3000:80"
+      - "3000:3000"
     volumes:
       - ./client:/src
     env_file: .env.prod
@@ -41,14 +41,27 @@ services:
     depends_on:
       - server
       - db
-  nginx:
-    container_name: nginx
-    build: ./nginx/
+  nginx-proxy-manager:
+    image: "jc21/nginx-proxy-manager:latest"
+    restart: unless-stopped
+    ports:
+      # These ports are in format <host-port>:<container-port>
+      - "80:80" # Public HTTP Port
+      - "443:443" # Public HTTPS Port
+      - "81:81"
+        # Admin Web Port
+
     volumes:
-      - static:/app/web/static
+      - ./nginx:/data
+      - ./nginx:/etc/letsencrypt
+      - ./server:/src
+
+    env_file:
+      - .env.prod
     depends_on:
       - server
       - client
+
   db:
     container_name: db
     image: postgres
