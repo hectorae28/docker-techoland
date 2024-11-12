@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import Hero from "@/components/Hero";
 import Titles from "@/components/Titles";
 import Modal from "@/components/Modal";
@@ -7,6 +6,7 @@ import SliderComponent from "@/components/Slider";
 import Head from "next/head";
 import React, { useState } from "react";
 import Button from "@/components/Button";
+import FormContactTest from "@/components/FormContactTest";
 
 export async function getServerSideProps(context) {
   try {
@@ -46,7 +46,7 @@ const ProductItem = ({ itemData, listData }) => {
         onHide={() => setModalShow(false)}
         title={"Contactanos"}
       >
-        <FormContact onHide={() => setModalShow(false)} />
+        <FormContactTest onHide={() => setModalShow(false)} />
       </Modal>
       <div className="max-w-screen-lg flex flex-col items-center gap-6 px-4 mx-6 xl:mx-auto mt-5">
         <section className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-lg xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">

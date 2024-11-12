@@ -3,7 +3,7 @@ const Hero = ({ children, bg }) => {
     <section
       className={
         bg
-          ? " bg-fixed object-left bg-no-repeat bg-cover h-auto xl:h-auto w-full flex items-center justify-center " +
+          ? " bg-fixed object-left bg-no-repeat bg-cover xl:h-auto w-full flex items-center justify-center " +
             bg.toString()
           : "bg-[url('/hero-image.jpg')] bg-no-repeat bg-cover h-auto xl:h-[45rem] w-full flex items-center justify-center"
       }

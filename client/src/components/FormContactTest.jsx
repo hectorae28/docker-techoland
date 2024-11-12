@@ -1,9 +1,12 @@
 import React, { useState, useRef } from "react";
 
-const FormContact = ({ onHide }) => {
+const FormContactTest = ({ onHide }) => {
   const form = useRef(null);
   const [errors, setErrors] = useState(null);
+  const [loading, setLoading] = useState(false);
   async function handleSubmit(event) {
+    //"use server";
+    setLoading(true);
     event.preventDefault();
     const formData = new FormData(form.current);
     const order = {
@@ -12,6 +15,8 @@ const FormContact = ({ onHide }) => {
       phone: formData.get("phone"),
       mensaje: formData.get("message"),
     };
+
+    const serverUrl = process.env.SERVER_URL;
     fetch("http://localhost/api/hello/", {
       method: "POST",
       body: JSON.stringify(order),
@@ -25,10 +30,12 @@ const FormContact = ({ onHide }) => {
           res.json();
           onHide();
         }
+        setLoading(false);
       })
       .catch((error) => {
         console.error(error);
         setErrors(error);
+        setLoading(false);
       });
   }
   return (
@@ -53,7 +60,12 @@ const FormContact = ({ onHide }) => {
           </div>
         </div>
       )}
-      <form method="POST" ref={form} onSubmit={handleSubmit}>
+      <form
+        method="POST"
+        ref={form}
+        //action={handleSubmit}
+        onSubmit={handleSubmit}
+      >
         <div className="grid gap-4 mb-4 sm:grid-cols-2">
           <div>
             <label
@@ -110,25 +122,39 @@ const FormContact = ({ onHide }) => {
         </div>
         <button
           type="submit"
+          disabled={loading}
           className="text-white inline-flex items-center bg-primary hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
         >
-          <svg
-            className="mr-1 -ml-1 w-6 h-6"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z"
-              clipRule="evenodd"
-            ></path>
-          </svg>
-          Enviar Mensaje
+          {loading ? (
+            <div
+              className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] dark:text-white"
+              role="status"
+            >
+              <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
+                Loading...
+              </span>
+            </div>
+          ) : (
+            <div className="flex items-center">
+              <svg
+                className="mr-1 -ml-1 w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z"
+                  clipRule="evenodd"
+                ></path>
+              </svg>
+              Enviar Mensaje
+            </div>
+          )}
         </button>
       </form>
     </div>
   );
 };
 
-export default FormContact;
+export default FormContactTest;
