@@ -6,7 +6,7 @@ class Producto(models.Model):
     nombre = models.TextField(max_length=200)
     slug = models.SlugField(max_length=200, unique=False)
     descripcion = models.TextField(max_length=500)
-    info = models.JSONField(default=dict)
+    info = models.JSONField(default=dict, null=True)
 
     def __str__(self):
         return self.nombre
