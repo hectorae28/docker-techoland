@@ -376,6 +376,66 @@
     }
 },
 {
+    "model": "products.producto",
+    "pk": 16,
+    "fields": {
+        "nombre": "Arandela de goma EPDM",
+        "slug": "accesorio",
+        "descripcion": "Arandela de goma EPDM",
+        "info": {
+            "info": "none"
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 17,
+    "fields": {
+        "nombre": "Clip s Seam",
+        "slug": "accesorio",
+        "descripcion": "Clip s Seam",
+        "info": {
+            "info": "none"
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 18,
+    "fields": {
+        "nombre": "Remate U",
+        "slug": "accesorio",
+        "descripcion": "Remate U",
+        "info": {
+            "info": "none"
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 19,
+    "fields": {
+        "nombre": "Perfil borde top click",
+        "slug": "accesorio",
+        "descripcion": "Perfil borde top click",
+        "info": {
+            "info": "none"
+        }
+    }
+},
+{
+    "model": "products.producto",
+    "pk": 20,
+    "fields": {
+        "nombre": "Perfil H click",
+        "slug": "accesorio",
+        "descripcion": "Perfil H Click",
+        "info": {
+            "info": "none"
+        }
+    }
+},
+{
     "model": "products.imagenproducto",
     "pk": 1,
     "fields": {
@@ -624,6 +684,46 @@
     }
 },
 {
+    "model": "products.imagenproducto",
+    "pk": 32,
+    "fields": {
+        "product": 16,
+        "image_src": "/products/ARANDELA-GOMA-EPDM.jpeg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 33,
+    "fields": {
+        "product": 17,
+        "image_src": "/products/CLIP-S-SEAM.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 34,
+    "fields": {
+        "product": 18,
+        "image_src": "/products/FLSG-U-REMATE.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 35,
+    "fields": {
+        "product": 19,
+        "image_src": "/products/PERFIL-BORDE-TOPCLICK.jpg"
+    }
+},
+{
+    "model": "products.imagenproducto",
+    "pk": 36,
+    "fields": {
+        "product": 20,
+        "image_src": "/products/perfil-H-click.jpg"
+    }
+},
+{
     "model": "products.grosor",
     "pk": 1,
     "fields": {
@@ -817,6 +917,51 @@
     "pk": 22,
     "fields": {
         "product": 14,
+        "grosor": "default",
+        "precio": "5.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 23,
+    "fields": {
+        "product": 16,
+        "grosor": "default",
+        "precio": "5.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 24,
+    "fields": {
+        "product": 17,
+        "grosor": "default",
+        "precio": "5.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 25,
+    "fields": {
+        "product": 18,
+        "grosor": "default",
+        "precio": "5.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 26,
+    "fields": {
+        "product": 19,
+        "grosor": "default",
+        "precio": "5.00"
+    }
+},
+{
+    "model": "products.grosor",
+    "pk": 27,
+    "fields": {
+        "product": 20,
         "grosor": "default",
         "precio": "5.00"
     }
