@@ -65,7 +65,7 @@ const Accesorios = ({ data }) => {
                 </div>
                 <div className="me-auto place-self-center lg:w-3/5">
                   <Titles type="h2">{item.nombre}</Titles>
-                  <p className="mb-6 text-gray-800 dark:text-gray-400">
+                  <p className="mb-6 text-gray-800 dark:text-gray-400 text-center">
                     {item.descripcion}
                   </p>
                   <div className="w-full flex justify-center">
