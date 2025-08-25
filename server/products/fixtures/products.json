@@ -5,20 +5,24 @@
     "fields": {
         "nombre": "POLICARBONATO ALVEOLAR LÍNEA TRADICIONAL",
         "slug": "tradicional",
-        "descripcion": "La lámina de policarbonato alveolar es el preferido por el público en la actualidad por encima del vidrio y el acrílico, por ser un material más ligero y resistente.",
+        "descripcion": "El Policarbonato Alveolar de Plazit Polygal, es un producto de transmisión luminosa que proporciona un ambiente agradable y además es de fácil instalación.",
         "info": {
             "usos": [
-                "Cubiertas para piscinas y pérgolas",
-                "galpones",
-                "Revestimiento de fachadas",
+                "Galpones",
+                "Cubiertas para piscinas",
+                "Cubiertas para pérgolas",
                 "Edificios industriales",
-                "Múltiples usos"
+                "Revestimientos de fachada"
             ],
-            "accesorios": [],
+            "accesorios": [
+                "Perfil U de Policarbonato",
+                "Botón de Sujeción Diamante",
+                "Perfil H click"
+            ],
             "caracteristicas": [
                 "Resistentes a la intemperie ",
-                "Protección con un filtro UV.",
-                "Fácil instalación.",
+                "Protección con un filtro UV",
+                "Fácil instalación",
                 "Adaptable a formas curvas y arcos"
             ],
             "especificaciones_tecnicas": {
@@ -39,21 +43,25 @@
     "fields": {
         "nombre": "POLICARBONATO ALVEOLAR LÍNEA EVOLUCIÓN",
         "slug": "evolucion",
-        "descripcion": "La lámina de policarbonato alveolar de la línea evolución,  contiene polvo de aluminio que reduce el 30% del calor y reflecta mejor la luz en su variedad de colores.",
+        "descripcion": "El Policarbonato Alveolar de Plazit Polygal, es un producto de transmisión luminosa que proporciona un ambiente agradable y además es de fácil instalación.",
         "info": {
             "usos": [
-                "Techos y fachadas traslucidas",
-                "Cubiertas para piscinas y pérgolas",
-                "galpones",
-                "restaurantes"
+                "Revestimientos de Fachada",
+                "Cubiertas para piscinas",
+                "Techos y Pergolas",
+                "Galpones"
             ],
-            "accesorios": [],
+            "accesorios": [
+                "Perfil U",
+                "Cinta Perforada",
+                "Perfil H",
+                "Cinta de Aluminio"
+            ],
             "caracteristicas": [
-                "Resistentes a la intemperie ",
-                "Mejor reflección de luz",
-                "Protección con un filtro UV.",
-                "Fácil instalación.",
-                "Adaptable a formas curvas y arcos"
+                "Colores Tradicionales",
+                "Colores Metálicos Polyshade",
+                "Resistencia a Impactos",
+                "Adaptación a Curva en Frío"
             ],
             "especificaciones_tecnicas": {
                 "peso": "1,3kg/m2 / 1,7kg/m2",
@@ -73,26 +81,25 @@
     "fields": {
         "nombre": "POLICARBONATO CORRUGAL GRECA",
         "slug": "greca",
-        "descripcion": "La lámina de corrugal greca de polygal-plaskolite, es un producto de policarbonato de última tecnología la cual, gracias a su resistencia y versatilidad, puede ser usada en cualquier tipo de techumbre.",
+        "descripcion": "La lámina de Corrugal Greca de Plaskolite, es un producto de policarbonato de última tecnología la cual, gracias a su resistencia y versatilidad, puede ser usada en cualquier tipo de techumbre.",
         "info": {
             "usos": [
-                "Resistentes a la intemperie ",
-                "Ideal para grandes superficies",
-                "Protección con un filtro UV.",
-                "Fácil instalación.",
-                "disponible en Blanco y gris cenizo"
+                "Techos en general ",
+                "Estacionamientos",
+                "Galpones y Viveros",
+                "Piscinas y Lucenarios"
             ],
             "accesorios": [
-                "arandela de goma epdm gris",
-                "tope de plástico",
-                "Tornillos autotaladrantes 2"
+                "Arandela de goma epdm gris",
+                "Tope de plástico",
+                "Tornillo autotaladrante"
             ],
             "caracteristicas": [
-                "Resistentes a la intemperie ",
+                "Fácil instalación",
+                "Resistentes a la intemperie",
+                "Protección con filtro UV",
                 "Ideal para grandes superficies",
-                "Protección con un filtro UV.",
-                "Fácil instalación.",
-                "disponible en Blanco y bronce"
+                "Disponible en Blanco y Bronce"
             ],
             "especificaciones_tecnicas": {
                 "peso": "1,04kg X m",
@@ -108,26 +115,25 @@
     "fields": {
         "nombre": "POLICARBONATO CORRUGAL SINUS",
         "slug": "sinus",
-        "descripcion": "La lámina de corrugal sinus de polygal-plaskolite, es un producto de policarbonato de última tecnología la cual, gracias a su resistencia y versatilidad, puede ser usada en cualquier tipo de cubiertas.",
+        "descripcion": "La lámina de Corrugal Sinus de Polygal-Plaskolite, es un producto de policarbonato de última tecnología la cual, gracias a su resistencia y versatilidad, puede ser usada en cualquier tipo de cubiertas.",
         "info": {
             "usos": [
-                "Resistentes a la intemperie ",
-                "Ideal para grandes superficies",
-                "Protección con un filtro UV.",
-                "Fácil instalación.",
-                "disponible en Blanco y gris cenizo"
+                "Techos en General ",
+                "Estacionaminetos",
+                "Galpones y Viveros",
+                "Piscinas y Lucenarios"
             ],
             "accesorios": [
-                "arandela de goma epdm gris",
-                "tope de plástico",
+                "Arandela de goma epdm gris",
+                "Tope de plástico",
                 "Tornillos autotaladrantes 2"
             ],
             "caracteristicas": [
-                "Resistentes a la intemperie ",
+                "Fácil instalación ",
+                "Resistente a la intemperie",
+                "Protección con Filtro UV",
                 "Ideal para grandes superficies",
-                "Protección con un filtro UV.",
-                "Fácil instalación.",
-                "disponible en Blanco y gris cenizo"
+                "Disponible en Blanco y Gris Humo"
             ],
             "especificaciones_tecnicas": {
                 "peso": "1,04kg X m",
@@ -143,25 +149,25 @@
     "fields": {
         "nombre": "BAMBÚTECH",
         "slug": "bambutech",
-        "descripcion": "Nueva línea de láminas de policarbonato con varas de bambú integradas que conjugan elementos de decoración y diseño",
+        "descripcion": "Nueva línea de láminas de Policarbonato con varas de bambú integradas que conjugan elementos de diseño y decoración.",
         "info": {
             "usos": [
                 "Techos y aleros",
                 "Estacionamientos",
-                "Terrazas y piscinas",
-                "lucernarios"
+                "Terrazas y Piscinas",
+                "Lucernarios"
             ],
             "accesorios": [
-                "perfiles “H CLICK” de policarbonato (incluye goma epdm)",
-                "perfils “U”",
-                "Tornillos autotaladrantes ",
+                "Perfiles “H CLICK” de policarbonato (incluye goma epdm)",
+                "Perfil “U”",
+                "Tornillo autotaladrante ",
                 "Botón de sujeción diamante"
             ],
             "caracteristicas": [
-                "transmisión de luz controlada de la luz solar",
-                "excelente aislamiento término",
-                "filtro uv que evita su decoloración",
-                "flexible y fácil de instalar"
+                "Transmisión Controlada de la Luz Solar",
+                "Excelente Sislamiento Térmico",
+                "Filtro UV que evita su decoloración",
+                "Flexible y Fácil de Instalar"
             ],
             "especificaciones_tecnicas": {
                 "tamaño": {
@@ -178,26 +184,26 @@
     "fields": {
         "nombre": "POLICARBONATO MACIZO",
         "slug": "macizo",
-        "descripcion": "Láminas de policarbonato extruidas con alta resistencia a impactos. Tienen la mitad del peso del vidrio, poseen mejor transmisión de luz y muchas ventajas.",
+        "descripcion": "Láminas de policarbonato extruídas con alta resistencia a impactos. Tienen la mitad del peso del vidrio, poseen mejor transmisión de luz y muchas ventajas.",
         "info": {
             "usos": [
-                "Techos y lucernarios",
+                "Techos y Lucernarios",
                 "Estacionamientos",
-                "Galpones y piscinas",
-                "Múltiples aplicaciones."
+                "Galpones y Piscinas",
+                "Múltiples Aplicaciones"
             ],
             "accesorios": [
-                "Tornillos autotaladrantes 2",
+                "Tornillo autotaladrante 2",
                 "Arandela de goma epdm gris",
-                "Perfin H click de policabonato (incluye goma epdm)",
+                "Perfil H click de policabonato (incluye goma epdm)",
                 "Botón de sujeción diamante"
             ],
             "caracteristicas": [
-                "Resistentes a la intemperie y a los rayos UV.",
-                "Alta transparencia",
-                "Virtualmente irrompible",
-                "No se amarilla, ni se cuartea",
-                "Fácil instalación."
+                "Resistentes a la intemperie y a los Rayos UV",
+                "Alta Transparencia",
+                "Virtualmente Irrompible",
+                "No se amarilla ni cuartea",
+                "Fácil Instalación"
             ],
             "especificaciones_tecnicas": {
                 "medidas_laminas": [
@@ -223,28 +229,28 @@
     "fields": {
         "nombre": "KIT DE PANELES DE POLICARBONATO TOP CLICK",
         "slug": "topclick",
-        "descripcion": "El sistema de paneles de policarbonato top click, permite la instalación de cubiertas sin necesidad de realizar perforaciones o anclajes sobre las láminas, brindado superficies herméticas y de muy fácil instalación.",
+        "descripcion": "TOPClick es un Sistema de Paneles en Policarbonato con una completa solución de anclaje, que gracias a su tecnología permite uniones entre láminas con ensambles perfectos, limpios y herméticos, lo que otorga una mayor rigidez, aislamiento térmico y máxima resistencia, facilidad de instalación y ahorro en costos.",
         "info": {
             "usos": [
                 "Revestimiento de fachadas",
                 "Cubiertas para piscinas",
-                "Techos y pérgolas",
+                "Techos y Pérgolas",
                 "Galpones",
-                "estacionamientos"
+                "Estacionamientos"
             ],
             "accesorios": [
-                "Capucho de cierre",
+                "Capuchón de cierre",
                 "Perfil para bordes",
-                "Perfil “u”",
-                "Cip de sujeción",
+                "Perfil “U”",
+                "Clip de sujeción",
                 "Cinta microperforada",
-                "Tornillos autotaladrantes cabeza plana"
+                "Tornillo autotaladrante cabeza plana"
             ],
             "caracteristicas": [
-                "no requiere perforaciones en la lámina para fijar la estructura",
-                "disponible en Blanco ice, bronce trasera y gris metal",
-                "resistencia a impactos",
-                "Fácil instalación."
+                "No requiere perforaciones en la lámina para fijar la estructura",
+                "Disponible en Blanco Ice, Bronce Trasera y Gris Metal",
+                "Resistencia a impactos",
+                "Fácil instalación"
             ],
             "especificaciones_tecnicas": {
                 "peso": "1,64kg X m2",
@@ -260,7 +266,7 @@
     "fields": {
         "nombre": "STANDING SEAM",
         "slug": "standing-seam",
-        "descripcion": "La cubierta tipo STANDING SEAM está compuesta por una lámina tipo bandeja metálica que se utiliza para cubierta de techos.",
+        "descripcion": "La cubierta tipo Standing Seam esta compuesta por una lámina tipo bandeja metálica que se utiliza para cubierta de techos.",
         "info": {
             "usos": [
                 "Fachadas",
@@ -268,7 +274,7 @@
                 "Cubiertas de techo en general"
             ],
             "accesorios": [
-                "Flashing tipo “C”",
+                "Flashing tipo “C” de remate",
                 "Tornillo autotaladrante",
                 "Clip de sujeción"
             ],
@@ -276,7 +282,7 @@
                 "Se fabrica del largo de la pendiente",
                 "Se instala sin perforaciones directas (con clip de sujeción interno)",
                 "Almacena gran cantidad de agua sin rebose y con absoluta hermeticidad.",
-                "Se puede instalas bandeja sencilla o bandeja doble con aislante termo acústico (poliestireno o fibra de vidrio)",
+                "Se puede instalar bandeja sencilla o bandeja doble con aislante termoacústico (Poliestireno o Fibra de Vidrio)",
                 "Garantía de 20 años libre de mantenimiento"
             ],
             "especificaciones_tecnicas": {
@@ -329,47 +335,11 @@
 },
 {
     "model": "products.producto",
-    "pk": 12,
-    "fields": {
-        "nombre": "TAPA PERFIL T CLICK",
-        "slug": "accesorio",
-        "descripcion": "TAPA PERFIL T CLICK",
-        "info": {
-            "info": "none"
-        }
-    }
-},
-{
-    "model": "products.producto",
-    "pk": 13,
-    "fields": {
-        "nombre": "Fijacion Top Click",
-        "slug": "accesorio",
-        "descripcion": "Fijacion Top Click",
-        "info": {
-            "info": "none"
-        }
-    }
-},
-{
-    "model": "products.producto",
     "pk": 14,
     "fields": {
         "nombre": "Cinta para policarbonato",
         "slug": "accesorio",
         "descripcion": "Cinta para policarbonato",
-        "info": {
-            "info": "none"
-        }
-    }
-},
-{
-    "model": "products.producto",
-    "pk": 15,
-    "fields": {
-        "nombre": "PERFIL PC TOPCLICK",
-        "slug": "accesorio",
-        "descripcion": "PERFIL PC TOPCLICK",
         "info": {
             "info": "none"
         }
@@ -389,35 +359,11 @@
 },
 {
     "model": "products.producto",
-    "pk": 17,
-    "fields": {
-        "nombre": "Clip s Seam",
-        "slug": "accesorio",
-        "descripcion": "Clip s Seam",
-        "info": {
-            "info": "none"
-        }
-    }
-},
-{
-    "model": "products.producto",
     "pk": 18,
     "fields": {
         "nombre": "Remate U",
         "slug": "accesorio",
         "descripcion": "Remate U",
-        "info": {
-            "info": "none"
-        }
-    }
-},
-{
-    "model": "products.producto",
-    "pk": 19,
-    "fields": {
-        "nombre": "Perfil borde top click",
-        "slug": "accesorio",
-        "descripcion": "Perfil borde top click",
         "info": {
             "info": "none"
         }
@@ -653,34 +599,10 @@
 },
 {
     "model": "products.imagenproducto",
-    "pk": 28,
-    "fields": {
-        "product": 12,
-        "image_src": "/products/TAPA-PERFIL-T-CLICK.jpg"
-    }
-},
-{
-    "model": "products.imagenproducto",
-    "pk": 29,
-    "fields": {
-        "product": 13,
-        "image_src": "/products/FIJACION-TOPCLICK.jpg"
-    }
-},
-{
-    "model": "products.imagenproducto",
     "pk": 30,
     "fields": {
         "product": 14,
         "image_src": "/products/Cinta.jpg"
-    }
-},
-{
-    "model": "products.imagenproducto",
-    "pk": 31,
-    "fields": {
-        "product": 15,
-        "image_src": "/products/PERFIL.PC-TOPCLICK.jpg"
     }
 },
 {
@@ -693,26 +615,10 @@
 },
 {
     "model": "products.imagenproducto",
-    "pk": 33,
-    "fields": {
-        "product": 17,
-        "image_src": "/products/CLIP-S-SEAM.jpg"
-    }
-},
-{
-    "model": "products.imagenproducto",
     "pk": 34,
     "fields": {
         "product": 18,
         "image_src": "/products/FLSG-U-REMATE.jpg"
-    }
-},
-{
-    "model": "products.imagenproducto",
-    "pk": 35,
-    "fields": {
-        "product": 19,
-        "image_src": "/products/PERFIL-BORDE-TOPCLICK.jpg"
     }
 },
 {
@@ -896,24 +802,6 @@
 },
 {
     "model": "products.grosor",
-    "pk": 20,
-    "fields": {
-        "product": 12,
-        "grosor": "default",
-        "precio": "5.00"
-    }
-},
-{
-    "model": "products.grosor",
-    "pk": 21,
-    "fields": {
-        "product": 13,
-        "grosor": "default",
-        "precio": "5.00"
-    }
-},
-{
-    "model": "products.grosor",
     "pk": 22,
     "fields": {
         "product": 14,
@@ -932,27 +820,9 @@
 },
 {
     "model": "products.grosor",
-    "pk": 24,
-    "fields": {
-        "product": 17,
-        "grosor": "default",
-        "precio": "5.00"
-    }
-},
-{
-    "model": "products.grosor",
     "pk": 25,
     "fields": {
         "product": 18,
-        "grosor": "default",
-        "precio": "5.00"
-    }
-},
-{
-    "model": "products.grosor",
-    "pk": 26,
-    "fields": {
-        "product": 19,
         "grosor": "default",
         "precio": "5.00"
     }
