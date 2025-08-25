@@ -28,13 +28,13 @@ class ProductoSerializer(serializers.ModelSerializer):
   ProductoImagen = ImageSerializer(many=True)
   class Meta:
     model = Producto
-    fields = ['id','nombre','slug','info' , 'descripcion','ProductoImagen']
+    fields = ['id','nombre','slug','info' , 'descripcion','orden','ProductoImagen']
 
 class ProductosListSerializer(serializers.ModelSerializer):
   ProductoImagen = ImageSerializer(many=True)
   class Meta:
     model = Producto
-    fields = ['id', 'nombre','slug', 'descripcion' ,'ProductoImagen']
+    fields = ['id', 'nombre','slug', 'descripcion', 'orden' ,'ProductoImagen']
 """
 class CategoriasListSerializer(serializers.ModelSerializer):
     product = ProductosListSerializer()

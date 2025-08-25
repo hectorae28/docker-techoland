@@ -6,6 +6,7 @@
         "nombre": "POLICARBONATO ALVEOLAR LÍNEA TRADICIONAL",
         "slug": "tradicional",
         "descripcion": "El Policarbonato Alveolar de Plazit Polygal, es un producto de transmisión luminosa que proporciona un ambiente agradable y además es de fácil instalación.",
+        "orden": 1,
         "info": {
             "usos": [
                 "Galpones",
@@ -44,6 +45,7 @@
         "nombre": "POLICARBONATO ALVEOLAR LÍNEA EVOLUCIÓN",
         "slug": "evolucion",
         "descripcion": "El Policarbonato Alveolar de Plazit Polygal, es un producto de transmisión luminosa que proporciona un ambiente agradable y además es de fácil instalación.",
+        "orden": 2,
         "info": {
             "usos": [
                 "Revestimientos de Fachada",
@@ -82,6 +84,7 @@
         "nombre": "POLICARBONATO CORRUGAL GRECA",
         "slug": "greca",
         "descripcion": "La lámina de Corrugal Greca de Plaskolite, es un producto de policarbonato de última tecnología la cual, gracias a su resistencia y versatilidad, puede ser usada en cualquier tipo de techumbre.",
+        "orden": 4,
         "info": {
             "usos": [
                 "Techos en general ",
@@ -116,6 +119,7 @@
         "nombre": "POLICARBONATO CORRUGAL SINUS",
         "slug": "sinus",
         "descripcion": "La lámina de Corrugal Sinus de Polygal-Plaskolite, es un producto de policarbonato de última tecnología la cual, gracias a su resistencia y versatilidad, puede ser usada en cualquier tipo de cubiertas.",
+        "orden": 3,
         "info": {
             "usos": [
                 "Techos en General ",
@@ -150,6 +154,7 @@
         "nombre": "BAMBÚTECH",
         "slug": "bambutech",
         "descripcion": "Nueva línea de láminas de Policarbonato con varas de bambú integradas que conjugan elementos de diseño y decoración.",
+        "orden": 5,
         "info": {
             "usos": [
                 "Techos y aleros",
@@ -185,6 +190,7 @@
         "nombre": "POLICARBONATO MACIZO",
         "slug": "macizo",
         "descripcion": "Láminas de policarbonato extruídas con alta resistencia a impactos. Tienen la mitad del peso del vidrio, poseen mejor transmisión de luz y muchas ventajas.",
+        "orden": 6,
         "info": {
             "usos": [
                 "Techos y Lucernarios",
@@ -230,6 +236,7 @@
         "nombre": "KIT DE PANELES DE POLICARBONATO TOP CLICK",
         "slug": "topclick",
         "descripcion": "TOPClick es un Sistema de Paneles en Policarbonato con una completa solución de anclaje, que gracias a su tecnología permite uniones entre láminas con ensambles perfectos, limpios y herméticos, lo que otorga una mayor rigidez, aislamiento térmico y máxima resistencia, facilidad de instalación y ahorro en costos.",
+        "orden": 7,
         "info": {
             "usos": [
                 "Revestimiento de fachadas",
@@ -267,6 +274,7 @@
         "nombre": "STANDING SEAM",
         "slug": "standing-seam",
         "descripcion": "La cubierta tipo Standing Seam esta compuesta por una lámina tipo bandeja metálica que se utiliza para cubierta de techos.",
+        "orden": 8,
         "info": {
             "usos": [
                 "Fachadas",
@@ -304,6 +312,7 @@
         "nombre": "Perfil U de Policarbonato",
         "slug": "accesorio",
         "descripcion": "Elemento que sella los alveolos de la lamina para evitar que entre el sucio o la humedad en los mismos.",
+        "orden": 100,
         "info": {
             "longitud": " 2.10mts"
         }
@@ -316,6 +325,7 @@
         "nombre": "Botón de Sujección Diamante",
         "slug": "accesorio",
         "descripcion": "Elemento usado para sujetar la lamina en las correas de apoyo. Posee una arandela de goma para evitar el paso del agua.",
+        "orden": 101,
         "info": {
             "Espesor": " 6MM y 10MM"
         }
@@ -328,6 +338,7 @@
         "nombre": "Tornillo autotaladrante",
         "slug": "accesorio",
         "descripcion": "Tornillos autotaladrantes",
+        "orden": 102,
         "info": {
             "Espesor": " 6MM y 10MM"
         }
@@ -340,6 +351,7 @@
         "nombre": "Cinta para policarbonato",
         "slug": "accesorio",
         "descripcion": "Cinta para policarbonato",
+        "orden": 103,
         "info": {
             "info": "none"
         }
@@ -352,6 +364,7 @@
         "nombre": "Arandela de goma EPDM",
         "slug": "accesorio",
         "descripcion": "Arandela de goma EPDM",
+        "orden": 104,
         "info": {
             "info": "none"
         }
@@ -364,6 +377,7 @@
         "nombre": "Remate U",
         "slug": "accesorio",
         "descripcion": "Remate U",
+        "orden": 105,
         "info": {
             "info": "none"
         }
@@ -376,6 +390,7 @@
         "nombre": "Perfil H click",
         "slug": "accesorio",
         "descripcion": "Perfil H Click",
+        "orden": 106,
         "info": {
             "info": "none"
         }

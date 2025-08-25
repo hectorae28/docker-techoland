@@ -7,7 +7,11 @@ class Producto(models.Model):
     slug = models.SlugField(max_length=200, unique=False)
     descripcion = models.TextField(max_length=500)
     info = models.JSONField(default=dict, null=True)
+    orden = models.IntegerField(default=0)
 
+    class Meta:
+        ordering = ['orden', 'nombre']
+    
     def __str__(self):
         return self.nombre
 

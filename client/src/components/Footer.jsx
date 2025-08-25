@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="/" className="flex items-center">
-              <img src="/logo.png" className="h-[3.3rem] mr-3 logoBlack" alt="Techoland-Logo" />
+              <img src="/logo.png" className="h-20 mr-3 logoBlack" alt="Techoland-Logo" />
             </a>
           </div>
           <div className="flex gap-8 flex-col lg:flex-row">
