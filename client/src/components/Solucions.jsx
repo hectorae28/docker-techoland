@@ -30,7 +30,7 @@ const ProductsList = ({ data }) => {
           <section className=" px-4 py-8 antialiased  md:py-16 w-full">
           <div className={data?.length % 2 !== 0 ? "mx-auto bg-white flex flex-col xl:flex-row max-w-screen-xl rounded-lg  border-gray-600 border-solid border-2 p-4 md:p-8 lg:flex lg:p-16 lg:gap-8 xl:gap-16" : "mx-auto bg-white flex flex-col lg:flex-row-reverse max-w-screen-xl rounded-lg  border-gray-600 border-solid border-2 p-4 md:p-8 lg:flex lg:p-16 lg:gap-8 xl:gap-16 "}>
             <div className=" flex justify-center lg:w-2/5 lg:mt-0">
-              <img className="mb-4 h-56 w-56 sm:h-96 sm:w-96 md:h-full md:w-full object-contain" src="/topgal-home.png" alt="product image" />
+              <img className="mb-4 h-56 w-56 sm:h-96 sm:w-96 md:h-full md:w-full object-contain" src="/products/Boton-Diamante.jpg" alt="product image" />
             </div>
             <div className="me-auto place-self-center lg:w-3/5">
               <Titles type="h2" >Accesorios</Titles>
